@@ -23,6 +23,15 @@
 }
 ```
 
+Пример ответа при неверных credentials:
+```json
+{
+    "non_field_errors": [
+        "Unable to log in with provided credentials."
+    ]
+}
+```
+
 - /api/users - эндпоинт для просмотра всех пользователей или для создания нового пользователя.
 
 Пример GET-запроса:
